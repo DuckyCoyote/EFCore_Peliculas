@@ -9,7 +9,9 @@ builder.Services.AddControllers();
 
 var defaultConnection = builder.Configuration.GetConnectionString("DefaultConnection");
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(defaultConnection));
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+                                            options.UseNpgsql(defaultConnection,
+                                            postgresql => postgresql.UseNetTopologySuite()));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/duckycoyote/Documents/Proyectos/C#/net/EFCore-Peliculas/EFCore-Peliculas.csproj": {}
+    "/home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/EFCore-Peliculas.csproj": {}
   },
   "projects": {
-    "/home/duckycoyote/Documents/Proyectos/C#/net/EFCore-Peliculas/EFCore-Peliculas.csproj": {
+    "/home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/EFCore-Peliculas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/duckycoyote/Documents/Proyectos/C#/net/EFCore-Peliculas/EFCore-Peliculas.csproj",
+        "projectUniqueName": "/home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/EFCore-Peliculas.csproj",
         "projectName": "EFCore-Peliculas",
-        "projectPath": "/home/duckycoyote/Documents/Proyectos/C#/net/EFCore-Peliculas/EFCore-Peliculas.csproj",
+        "projectPath": "/home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/EFCore-Peliculas.csproj",
         "packagesPath": "/home/duckycoyote/.nuget/packages/",
-        "outputPath": "/home/duckycoyote/Documents/Proyectos/C#/net/EFCore-Peliculas/obj/",
+        "outputPath": "/home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/duckycoyote/.nuget/NuGet/NuGet.Config"
@@ -40,7 +40,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -52,13 +52,13 @@
               "target": "Package",
               "version": "[7.0.11, )"
             },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[7.0.4, )"
-            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -79,7 +79,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.10, 7.0.10]"
+              "version": "[7.0.11, 7.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
         }
       }
     }

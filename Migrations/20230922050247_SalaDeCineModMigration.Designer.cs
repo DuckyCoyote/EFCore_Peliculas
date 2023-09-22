@@ -3,6 +3,7 @@ using System;
 using EFCore_Peliculas;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NetTopologySuite.Geometries;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
@@ -12,9 +13,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EFCore_Peliculas.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230922050247_SalaDeCineModMigration")]
+    partial class SalaDeCineModMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -175,36 +178,6 @@ namespace EFCore_Peliculas.Migrations
                     b.ToTable("SalasDeCine");
                 });
 
-            modelBuilder.Entity("GeneroPelicula", b =>
-                {
-                    b.Property<int>("GenerosId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("PeliculasId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("GenerosId", "PeliculasId");
-
-                    b.HasIndex("PeliculasId");
-
-                    b.ToTable("GeneroPelicula");
-                });
-
-            modelBuilder.Entity("PeliculaSalaDeCine", b =>
-                {
-                    b.Property<int>("PeliculasId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("SalasDeCineId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("PeliculasId", "SalasDeCineId");
-
-                    b.HasIndex("SalasDeCineId");
-
-                    b.ToTable("PeliculaSalaDeCine");
-                });
-
             modelBuilder.Entity("EFCore_Peliculas.CineOferta", b =>
                 {
                     b.HasOne("EFCore_Peliculas.Cine", null)
@@ -219,36 +192,6 @@ namespace EFCore_Peliculas.Migrations
                     b.HasOne("EFCore_Peliculas.SalaDeCine", null)
                         .WithMany("SalasDeCine")
                         .HasForeignKey("SalaDeCineId");
-                });
-
-            modelBuilder.Entity("GeneroPelicula", b =>
-                {
-                    b.HasOne("EFCore_Peliculas.Entities.Genero", null)
-                        .WithMany()
-                        .HasForeignKey("GenerosId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("EFCore_Peliculas.Pelicula", null)
-                        .WithMany()
-                        .HasForeignKey("PeliculasId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("PeliculaSalaDeCine", b =>
-                {
-                    b.HasOne("EFCore_Peliculas.Pelicula", null)
-                        .WithMany()
-                        .HasForeignKey("PeliculasId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("EFCore_Peliculas.SalaDeCine", null)
-                        .WithMany()
-                        .HasForeignKey("SalasDeCineId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("EFCore_Peliculas.Cine", b =>
