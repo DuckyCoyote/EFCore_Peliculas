@@ -1644,6 +1644,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.11",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.11",
       "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite >= 7.0.11",
+      "Npgsql.NetTopologySuite >= 7.0.6",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -1705,6 +1706,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": {
             "target": "Package",
             "version": "[7.0.11, )"
+          },
+          "Npgsql.NetTopologySuite": {
+            "target": "Package",
+            "version": "[7.0.6, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
