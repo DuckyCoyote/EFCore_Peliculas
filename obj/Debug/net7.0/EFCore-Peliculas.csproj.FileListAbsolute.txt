@@ -89,3 +89,5 @@
 /home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite.dll
 /home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/bin/Debug/net7.0/Npgsql.NetTopologySuite.dll
 /home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/obj/Debug/net7.0/EFCoreNpgsqlNetTopologySuite.cs
+/home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/bin/Debug/net7.0/AutoMapper.dll
+/home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "sOXY7iwrba91Vgl0TFYmhrUIBo/lJxko8sDqUE+gIbhtkT8YjTn4hCNRZuKel+jFzBKzFqIT5zzSjUJjB7nx1Q==",
+  "dgSpecHash": "gYnUur04ljpLUESUcJVZwp7ZlXuTgvu+6Zk0pJMQVJxbiNJ3NIG+r3649UNKu6YeT4C1P3GxU6wXDFFqh4hThQ==",
   "success": true,
   "projectFilePath": "/home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/EFCore-Peliculas.csproj",
   "expectedPackageFiles": [
+    "/home/duckycoyote/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/duckycoyote/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/duckycoyote/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/duckycoyote/.nuget/packages/microsoft.aspnetcore.openapi/7.0.11/microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
+    "/home/duckycoyote/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/duckycoyote/.nuget/packages/microsoft.entityframeworkcore/7.0.11/microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "/home/duckycoyote/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.11/microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
     "/home/duckycoyote/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.11/microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",
