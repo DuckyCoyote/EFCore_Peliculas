@@ -1791,11 +1791,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/EFCore-Peliculas.csproj",
+      "projectUniqueName": "/home/duckycoyote/Documents/Proyectos/C#/net/EFCore_Peliculas/EFCore-Peliculas.csproj",
       "projectName": "EFCore-Peliculas",
-      "projectPath": "/home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/EFCore-Peliculas.csproj",
+      "projectPath": "/home/duckycoyote/Documents/Proyectos/C#/net/EFCore_Peliculas/EFCore-Peliculas.csproj",
       "packagesPath": "/home/duckycoyote/.nuget/packages/",
-      "outputPath": "/home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/obj/",
+      "outputPath": "/home/duckycoyote/Documents/Proyectos/C#/net/EFCore_Peliculas/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/duckycoyote/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gYnUur04ljpLUESUcJVZwp7ZlXuTgvu+6Zk0pJMQVJxbiNJ3NIG+r3649UNKu6YeT4C1P3GxU6wXDFFqh4hThQ==",
+  "dgSpecHash": "XaIYaCAVUec9dpngXDGmgQtvA5ohp5isu8fdwWO+VNrGHTzeVY4VfxOnihlAFfl4Sd8GF6dcDhMMWDj+m4qaxw==",
   "success": true,
-  "projectFilePath": "/home/duckycoyote/Documentos/Proyectos/C#/net/EFCore_Peliculas/EFCore-Peliculas.csproj",
+  "projectFilePath": "/home/duckycoyote/Documents/Proyectos/C#/net/EFCore_Peliculas/EFCore-Peliculas.csproj",
   "expectedPackageFiles": [
     "/home/duckycoyote/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/duckycoyote/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
